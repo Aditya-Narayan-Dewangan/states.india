@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+#body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 9px solid black; */
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#f1b375 , #FFFFFF ,	#cbcbee, #FFFFFF,#5cae55);
+    
+}
+#content{
+    width:80%;
+    height: 100%;
+    min-height: max-content;
+    
+    /* border:2px solid black; */
+    border-radius:30px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 40px; */
+}
+img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top:12px;
+    left: 6px;
+}
+span{
+    display:inline-block;
+}
+#heading{
+    /* padding: 30px; */
+    width: 100%;
+    height:max-content;
+    /* border:2px solid black; */
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    font-family: REM;
+    font-size: 1.6em;
+    margin:40px 0px;
+    color: #5cae55;
+}
+p{
+    margin:10px;
+    justify-self: center;
+}
+h1{
+    
+    justify-self: center;
+    /* font-size: ; */
+}
+#cards{
+    width: 100%;
+    height:max-content;
+
+    padding: 40px 0;
+    /* border:2px solid blue; */
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+#card{
+    
+    width: 300px;
+    min-height: 350px;
+    /* border:2px solid blue; */
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-size: 2.3em;
+    line-height: 50px;
+    font-style: italic;
+    color: white;
+    text-shadow: 5px 2px 3px black;
+    
+}
+.an{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b2/49/8f/main-entrance.jpg?w=500&h=400&s=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-color: blue; */
+    /* transition: transform 0.8s;
+    transform-style: preserve-3d; */
+}
+
+.ap{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0d/TU_142_Aircraft_Museum_Entrance.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-color: blue; */
+}
+.app{
+    background-image: url("https://www.tourmyindia.com/states/arunachalpradesh/images/tawang-monastery1.jpg");
+    /* -webkit-filter: blur(1px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+   
+}
+.as{
+    background-image: url("https://www.outlookindia.com/outlooktraveller/public/uploads/2018/05/great-one-horned-rhinoceros-kaziranga-assam.jpg");
+    /* -webkit-filter: blur(1px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* filter: blur(2px); */
+    /* background-color: blue; */
+}
+.b{
+    background-image: url("https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/ruins-of-ancient-vaishali.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.ch{
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/DollMuseum_20181009164512.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+#ss{
+    font-size: 0.8em;
+    line-height: 35px;
+}
+.c{
+    background-image: url("https://www.responsibletravel.com/imagesClient/S_177290.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.d{
+    background-image: url("https://hblimg.mmtcdn.com/content/hubble/img/silvassa/mmt/activities/m_activities_silvassa_silvassa_vasona_lion_safari_l_365_487.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.de{
+    background-image: url("https://drishtiias.com/images/uploads/1685442697_image4.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.g{
+    background-image: url("https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20200318164403/iStock-179449174.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.gj{
+    background-image: url("https://images.adsttc.com/media/images/5bd9/b552/f197/cc45/e900/00d6/medium_jpg/43914221_363966157680449_595145553531016098_n.jpg?1540994380");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.h{
+    background-image: url("https://www.holidify.com/images/cmsuploads/compressed/sultanpur-birds-santuary-gurgaon_20171013182929.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.g{
+    background-image: url("https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20200318164403/iStock-179449174.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.hp{
+    background-image: url("https://www.indianholiday.com/pictures/tourgallery/780/magnificent-shimla-manali-tour-5043.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y:bottom; */
+}
+.j{
+    background-image: url("https://i0.wp.com/orissadiary.com/wp-content/uploads/2023/01/324344388_1179655452940819_1309670881239871229_n.jpg?resize=450%2C300&ssl=1");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.jk{
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/indira-gandhi-tulip-garden-teeje.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.k{
+    background-image: url("https://www.themoneygig.com/wp-content/uploads/2020/09/Banglore-Bengaluru-silicon-valley-india-900x400.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.ke{
+    background-image: url("https://www.ekeralatourism.net/wp-content/uploads/2018/03/Alleppey.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+}
+.l{
+    background-image: url("https://static.toiimg.com/photo/87726041.cms");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+.la{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1200/0*wWfIKxAcCGjtKCgE.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+.mp{
+    background-image: url("https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/cover-for-Places-To-Visit-In-Madhya-Pradesh-In-May_16-Jan.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.mh{
+    background-image: url("https://static.javatpoint.com/tourist-places/images/tourist-places-in-maharashtra1.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.m{
+    background-image: url("https://indiatriplover.in/wp-content/uploads/2021/08/waikhom-james-tNDPVCs5sPg-unsplash.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.me{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1147/1*3wyq_Ja3ycktnzVxphV_iQ.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.mi{
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/6e/84/eb/view-of-the-falls-from.jpg?w=500&h=400&s=1");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.n{
+    background-image: url("https://www.tripsavvy.com/thmb/ilPR342Xgwo2t4GNqEiOX-GIqoc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-529838962-597600ad685fbe0011d72b7d.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.o{
+    background-image: url("https://www.daiwikhotels.com/wp-content/uploads/2016/07/Lord-of-the-universe-boxshot.jpg");
+
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-x: center;
+    background-position-y: bottom;
+    
+}
+.pu{
+    background-image: url("https://pondicherrytourism.co.in/images/places-to-visit/header/matrimandi-auroville-puducherry-tourism-entry-fee-timings-holidays-reviews-header.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.p{
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Amritsar1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.r{
+    background-image: url("https://www.tourmyindia.com/blog/wp-content/uploads/2020/11/Hawa-Mahal-Rajasthan-Feature.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.s{
+    background-image: url("https://assets-news.housing.com/news/wp-content/uploads/2022/09/03174756/sikkim-places-to-visit-feature-compressed.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.t{
+    background-image: url("https://assets-news.housing.com/news/wp-content/uploads/2022/07/12214143/best-places-to-visit-in-Tamil-Nadu-Kanyakumari-shutterstock_1750897691.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.te{
+    background-image: url("https://yometro.com/images/places/ramoji-film-city.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.ti{
+    background-image: url("https://www.mysteryofindia.com/wp-content/uploads/2015/01/Rock-Carvings-of-Unakoti.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.u{
+    background-image: url("https://www.thesearchingsouls.com/wp-content/uploads/2021/05/World-Heritage-Site-1.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.up{
+    background-image: url("https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.w{
+    background-image: url("https://housing.com/news/wp-content/uploads/2023/04/Howrah-Bridge-Kolkata-Fact-guide-f.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+footer{
+    width:100%;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #4b4be8 ;
+    font-family: REM;
+}
+@media screen and (max-width: 410px) {
+    h1{
+    
+        justify-self: center;
+        font-size: 1.7rem;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top:10px;
+        left: 1px;
+    }
+  }
